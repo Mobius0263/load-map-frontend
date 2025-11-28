@@ -1,5 +1,5 @@
 const API_BASE = "https://load-map.vercel.app/";
-let map = L.map('map').setView([0, 0], 2);
+let map = L.map('map').setView([-6.8934, 107.5980], 13);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
   attribution: '© OpenStreetMap contributors'
